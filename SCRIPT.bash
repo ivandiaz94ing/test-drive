@@ -109,6 +109,7 @@ curl -X 'GET' \
   -H 'accept: application/json' \
   -H 'X-API-Token: a8d2dd55a3c8e722ef3a1c664f9b2f6bc43e5d15';
   
-  
-  
-
+curl -X 'GET' \
+  'https://api.appcenter.ms/v0.1/orgs/ODDP/invitations' \
+  -H 'accept: application/json' \
+  -H 'X-API-Token: loquesea';
