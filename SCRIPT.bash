@@ -18,7 +18,7 @@ curl -X 'PATCH' \
   -H 'X-API-Token: a8d2dd55a3c8e722ef3a1c664f9b2f6bc43e5d15' \
   -H 'Content-Type: application/json' \
   -d '{
-  "display_name": "Iván Arturo Díaz Rosso"
+  "display_name": "Ivan Arturo Diaz Rosso"
 }';
 
 curl -X 'PATCH' \
@@ -27,7 +27,7 @@ curl -X 'PATCH' \
   -H 'X-API-Token: a8d2dd55a3c8e722ef3a1c664f9b2f6bc43e5d15' \
   -H 'Content-Type: application/json' \
   -d '{
-  "display_name""
+  "display_name": ""
 }';
 
 curl -X 'PATCH' \
@@ -45,9 +45,9 @@ curl -X 'POST' \
   -H 'X-API-Token: a8d2dd55a3c8e722ef3a1c664f9b2f6bc43e5d15' \
   -H 'Content-Type: application/json' \
   -d '{
-  "display_name": "ODDP",
-  "name": "ODDP",
-  "description": "Todos los datos fueron ingresados correctamente"
+  "display_name": "GRUPO1",
+  "name": "DDP",
+  "description": "DATOS CORRECTOS"
 }';
 
 curl -X 'POST' \
@@ -57,18 +57,19 @@ curl -X 'POST' \
   -H 'Content-Type: application/json' \
   -d '{
   "display_name": "",
-  "name": "",
-  "description": "Todos los datos NO fueron ingresados correctamente"
+  "name": "Nose",
+  "description": "TODO MENOS EL NOMBRE DEL GRUPO"
 }';
 
 curl -X 'POST' \
-  'https://api.appcenter.ms/v0.1/orgs/%20/teams' \
+  'https://api.appcenter.ms/v0.1/orgs/INEXISTENTE/teams' \
   -H 'accept: application/json' \
   -H 'X-API-Token: a8d2dd55a3c8e722ef3a1c664f9b2f6bc43e5d15' \
   -H 'Content-Type: application/json' \
   -d '{
-  "display_name": "GrDDP2",
-  "name": "GrDDP2",
-  "description": "Todos los datos fueron ingresados correctamente Menos la organizacion"
+  "display_name": "GRUPO2",
+  "name": "Sise",
+  "description": "ORGANIZACION INEXISTENETE"
 }';
+
 
